@@ -6,6 +6,10 @@ td {
     border: 1px solid #552594;
 }
 
+th {
+    font-family: 'Raleway', sans-serif;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
