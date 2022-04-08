@@ -13,15 +13,15 @@ const renderTables = async () => {
       <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title">${product.productName}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Departament: ${product.department} </h6>
+          <h7> R$${product.price}</h7>
           <p id="card" class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          ${product.productDescription}
           </p>
+          <a href="#" class="card-link">More Informations</a>
         </div>
       </div>
- 
- `;
+       `;
   });
 
   products_div.innerHTML = template;

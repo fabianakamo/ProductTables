@@ -15,10 +15,6 @@ h1 {
     text-align: center;
 }
 
-h2 {}
-
-nav {}
-
 nav>a {
     background-color: white;
     border: none;
@@ -29,4 +25,13 @@ nav>a {
     display: inline-block;
     font-size: 12px;
     width: 100%;
+}
+
+#all-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
 }
